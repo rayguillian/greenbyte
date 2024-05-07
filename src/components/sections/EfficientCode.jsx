@@ -19,6 +19,9 @@ const EfficientCode = ({ animate }) => {
       <p className="text-lg mb-6 text-center text-gray-200">
         Ved at strukturere vores kode i små, modulære og genanvendelige komponenter reducerer vi serverbelastningen betydeligt. Dette mindsker energiforbruget ved dataoverførsler og øger effektiviteten over tid.
       </p>
+       <p className="italic text-sm text-center text-gray-200">
+        Fun fact: En gennemsnitlig hjemmeside genererer 1,76 g CO2 pr. sidevisning.
+      </p>
       <div className="mx-auto my-6">
         <Lottie options={defaultOptions} height={300} width={300} />
       </div>
