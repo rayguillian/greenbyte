@@ -19,6 +19,9 @@ const LightweightMedia = ({ animate }) => {
       <p className="text-lg mb-6 text-center text-gray-200">
         Ved at anvende moderne og effektive medieformater som Lottie-animationer og SVG-illustrationer frem for tunge PNG'er og WebMs, reducerer vi behovet for båndbredde og energiforbruget markant da tunge mediefiler kræver mere data og strøm for at blive indlæst og afspillet.
       </p>
+        <p className="italic text-sm text-center text-gray-200">
+        Fun fact: IT-industrien udgør 20% af verdens elforbrug. Internetets klimaaftryk og systemer står for ca. 3,7% af de globale drivhusgasemissioner, svarende til luftfartsindustrien.
+      </p>
       <div className="mx-auto my-6">
         <Lottie options={defaultOptions} height={300} width={300} />
       </div>
