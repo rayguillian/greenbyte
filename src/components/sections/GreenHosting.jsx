@@ -19,6 +19,9 @@ const GreenHosting = ({ animate }) => {
       <p className="text-lg mb-6 text-center text-gray-200">
         Vores servers kommer fra bæredygtige kilder og kører kun på vedvarende energi, hvilket sparer miljøet betydeligt.
       </p>
+        <p className="italic text-sm text-center text-gray-200">
+        Fun fact: Internettet står for cirka 1,7 milliarder tons drivhusgasemissioner årligt, svarende til 414 kg CO2 pr. internetbruger.
+      </p>
       <div className="mx-auto my-6">
         <Lottie options={defaultOptions} height={300} width={300} />
       </div>
