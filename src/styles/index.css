@@ -1,0 +1,61 @@
+/* Import Google Fonts with font-display: swap */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+/* Apply Tailwind base styles */
+@import 'tailwindcss/base';
+
+/* Apply Tailwind components */
+@import 'tailwindcss/components';
+
+/* Apply Tailwind utilities */
+@import 'tailwindcss/utilities';
+
+/* Global styles */
+html {
+  font-size: 16px; /* Base font size */
+}
+
+/* Responsive font sizes */
+@media (min-width: 640px) {
+  html {
+    font-size: 18px; /* Increase font size on small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px; /* Increase font size on medium screens */
+  }
+}
+
+/* Component styles */
+.btn {
+  @apply py-2 px-4 rounded transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-primary text-white;
+}
+
+/* Using Tailwind's color scale if adjusted in config */
+.btn-primary:hover {
+  @apply bg-green-700;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white;
+}
+
+.btn-secondary:hover {
+  @apply bg-gray-800;
+}
+
+/* Remove duplicate declaration */
+.text-shadow-md {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Optimize text-shadow-lg */
+.text-shadow-lg {
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+}

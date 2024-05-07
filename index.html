@@ -2,16 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="./src/assets/brainwave-symbol.svg"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brainwave</title>
+    <title>GreenByte Studio</title>
+    <!-- Preload Google Fonts -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+      />
+    </noscript>
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="/build/assets/index.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../../assets/images/logo.svg" />
+    <!-- Adjust the path to your favicon file -->
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/assets/main.jsx"></script>
+    <!-- Adjust the path as necessary -->
   </body>
 </html>
