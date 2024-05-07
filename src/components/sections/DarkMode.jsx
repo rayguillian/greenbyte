@@ -19,6 +19,9 @@ const DarkMode = ({ animate }) => {
       <p className="text-lg mb-6 text-center text-gray-200">
         Vi implementerer "dark mode" på din hjemmeside og reducerer energiforbruget på enheder med OLED- og AMOLED-skærme, da mørkere skærme kræver mindre strøm. Dette bidrager til længere batterilevetid og mindre miljøpåvirkning.
       </p>
+        <p className="italic text-sm text-center text-gray-200">
+        Fun fact: Brug af dark mode på en AMOLED-skærm kan reducere energiforbruget med op til 63% ved maksimal lysstyrke.
+      </p>
       <div className="mx-auto my-6">
         <Lottie options={defaultOptions} height={300} width={300} />
       </div>
